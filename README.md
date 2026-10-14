@@ -1,6 +1,6 @@
 # saianirudhB.github.io
 
-Personal portfolio website for **Sai Anirudh Boorla** — DevOps Engineer (AWS, Docker, Kubernetes, Terraform, CI/CD).
+Personal site for **Sai Anirudh Boorla** — DevOps Engineer (AWS, Terraform, Kubernetes, GitHub Actions).
 
 Live at **https://saianirudhb.github.io/**
 
@@ -8,8 +8,8 @@ Live at **https://saianirudhb.github.io/**
 
 Plain, dependency-free static web — no framework, no build step:
 
-- **HTML5** — a single semantic `index.html` (header/nav, hero, about, skills, experience, projects, education, contact)
-- **CSS3** — custom styles in `styles.css` (CSS variables, Flexbox/Grid, a Google Font, scroll-reveal transitions, a mobile breakpoint). No CSS framework.
+- **HTML5** — a single semantic `index.html` (nav, hero, impact stats, about, selected work, experience, stack, contact)
+- **CSS3** — custom styles in `styles.css` (CSS variables, Flexbox/Grid, Google Fonts, scroll-reveal transitions, mobile breakpoints). No CSS framework.
 - **Vanilla JavaScript** — `script.js` handles the mobile nav toggle, scroll-reveal via `IntersectionObserver`, and the footer year. No libraries, no bundler.
 - **GitHub Actions** — `.github/workflows/ci.yml` runs on every push/PR: HTML validation (`html-validate`) and an internal link/anchor check (`scripts/check-links.js`).
 

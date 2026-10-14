@@ -1,5 +1,5 @@
 /**
- * Sai Anirudh Boorla — Portfolio
+ * Sai Anirudh Boorla — Personal site
  * Minimal, dependency-free vanilla JS:
  *  - mobile nav toggle
  *  - smooth scroll to in-page anchors (CSS handles most of it; this closes
