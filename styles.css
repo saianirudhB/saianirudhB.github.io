@@ -698,12 +698,14 @@ button {
    Scroll reveal
    ------------------------------------------------------------------------- */
 .reveal {
-  opacity: 0;
-  transform: translateY(14px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+  /* Content is always readable at rest -- only the position settles in.
+     Never hide on opacity so a slow/blocked script, a link-preview bot,
+     or a screenshot never catches a blank page. */
+  opacity: 1;
+  transform: translateY(10px);
+  transition: transform 0.5s ease;
 }
 .reveal.is-visible {
-  opacity: 1;
   transform: translateY(0);
 }
 
